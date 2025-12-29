@@ -1,0 +1,38 @@
+»NODE JS
+
+O que é o NodeJS?
+> Back-end.
+> Rotas
+> NodeJS NÂO é uma linguagem. (Plataforma)
+
+O que é NPM / YARN ?
+
+> Gerenciador de pacotes 
+> Instalar bibliotecas de terceiros.
+> Criar próprias bibliotecas.
+
+Caraterísticas do NODE JS
+
+> Arquitetura Event-loop.
+  » Call Stack. (Pilha de eventos)
+> Single-thread.
+> Non-Blocking I/O.
+
+Call Stack
+------------------
+|                |
+|                |
+|                |
+|                |
+|                |
+|                |
+|                |
+|função3()       |
+|função2()       |
+|função1()       |
+_________________|
+
+LIFO - Last IN, First-Out -> Último a entrar, primeiro a sair.
+Logo, primeiro será executado a função3(), depois a função2() e por último a função1().
+
+
