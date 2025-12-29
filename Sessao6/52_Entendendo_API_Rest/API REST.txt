@@ -1,0 +1,73 @@
+API REST
+
+> Fluxo: Requisição e resposta.
+> Frontend : Recebe os dados e processa.
+> Resposta : Através de uma estrutura de dados.
+
+Rotas
+
+GET -> http://minhaapi.com/usuarios
+
+POST -> http://minhaapi.com/usuarios
+
+PUT -> http://minhaapi/usuario/1
+
+DELETE -> http://minhaapi.com/usuarios/1
+
+Vantagens?
+
+> Vários clientes (front-end)
+> Comunicação padronizada
+( web, mobile, desktop)
+
+JSON (JavaScript Object Notation)
+
+{
+	"usuario"{
+		"nome": "Geovani Fanine",
+		"email": "teste@teste.com.br",
+		"sexo": "Masculino"
+	}
+}
+
+Requisição
+
+> GET http://minhaapi.com/usurios
+
+> GET http://minhaapi.com/usuarios/1
+
+> POST http://minhaapi.com/usuarios
+>>Body ( Request body)
+{
+	"nome": "Geovani Fanine",
+	"email": "teste@teste.com.br"
+}
+
+>> HEADERS
+{
+	"token":"123456"
+}
+
+> Métodos HTTP
+
+GET, POST, PUT, DELETE
+
+HTTP Codes
+
+> 1xx: Information
+
+> 2xx: Success
+-- 200: Success
+-- 201: Created
+
+> 3xx: Redirection
+--301: Moved Permanently
+--302: Moved
+
+> 4xx: Client Error
+--400: Bad Request
+--401: Unauthorized
+--404: Not Found
+
+> 5xx: Server Error
+--500: Server error
