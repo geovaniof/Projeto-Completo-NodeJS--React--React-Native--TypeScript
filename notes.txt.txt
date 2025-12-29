@@ -1,0 +1,37 @@
+Criar um novo projeto : npx create-react-app primeiro-app
+
+Antes de iniciar o projeto, pelo terminal na pasta do mesmo digitar : npm start
+
+Instalar componente de rotas do REACT : npm install react-router-dom
+
+Instalação do Axios : npm install axios
+
+»YARN
+
+Criar um novo projeto : yarn init -y
+
+Adicionar o Express : yarn add express
+
+Instalar o lybrary reload : yarn add nodemon -D
+
+Executar o nodemon : nodemon index.js
+
+Script para executar o nomemon automaticamente
+--no arquivo package.json
+--Adicionar scripts
+--Exemplo:
+{
+  "name": "53CriandoPrimeirApi",
+  "packageManager": "yarn@4.10.3",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+"scripts":{
+	"dev": "nodemon index.js"
+},
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
+
+--Executar non prompt de comando : yarn dev
