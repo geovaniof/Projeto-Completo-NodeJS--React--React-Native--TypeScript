@@ -1,0 +1,4 @@
+Prime Flix.
+
+Neste projeto iremos consumir uma API gratuita sobre filmes, onde iremos montas uma lista de filmes
+e gravas localmente.
